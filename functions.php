@@ -680,7 +680,7 @@ require get_template_directory() . '/inc/block-patterns.php';
  * 名称変更
  */
 function my_gettext1($translated_text, $text, $domain) {
-		$translated_text = str_replace('お買い物カゴ', 'お申込みリスト', $translated_text);
+		$translated_text = str_replace('お買い物カゴ', 'お申込みリスト(変更テスト)', $translated_text);
 		return $translated_text;
 }
 function my_gettext2($translated_text, $text, $domain) {
